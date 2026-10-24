@@ -1,8 +1,10 @@
-# Bright Insights · Margin Watch
+# Minghao Zhang · Margin Watch
+
+**Author:** Minghao Zhang
 
 A small Streamlit review for a **regional sales manager** deciding which product groups need a discount and cost review before the next promotion cycle.
 
-> Design rationale draft: review these choices and adapt the wording to reflect your own reasoning before submitting. The assignment requires your own README. “Bright Insights” is a proposed team name, not a claim about an existing team or a real client interview.
+> Design rationale draft: review these choices and adapt the wording to reflect your own reasoning before submitting. The assignment requires your own README. The byline “Minghao Zhang” is the author’s real name, not a claim about an existing team or a real client interview.
 
 ## Step 1 — Dataset and decision-maker
 
@@ -94,4 +96,4 @@ The EDA notebook uses the development dependencies included in `uv sync`. It can
 
 Publish this directory to a public repository in **your own GitHub account**, then deploy `app.py` from that repository in **your own Streamlit Community Cloud account**. Set Python to **3.14** in Advanced settings. The app reads its CSV relative to `app.py`, so deployment does not depend on a local Windows path.
 
-Before submission, verify both links open successfully, adapt this draft rationale to your own decisions, confirm the team name, and put the deployed app URL and repository URL in the first Markdown cell of `phone-trade-in.ipynb`.
+Before submission, verify both links open successfully, adapt this draft rationale to your own decisions, confirm the byline, and put the deployed app URL and repository URL in the first Markdown cell of `phone-trade-in.ipynb`.

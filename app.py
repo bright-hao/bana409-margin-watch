@@ -5,7 +5,7 @@ from matplotlib.ticker import FuncFormatter, PercentFormatter
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="Bright Insights | Margin Watch", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Minghao Zhang | Margin Watch", page_icon="📊", layout="wide")
 
 @st.cache_data
 def load_data():
@@ -19,7 +19,7 @@ def money(value):
 
 
 data = load_data()
-st.title("Bright Insights · Margin Watch")
+st.title("Minghao Zhang · Margin Watch")
 st.caption("For a regional sales manager deciding which product groups need a discount and cost review before next week's promotions.")
 st.caption("Data: 03 Jan 2014 – 30 Dec 2017 · Kaggle snapshot · Production plan: refresh nightly; review every Monday.")
 
